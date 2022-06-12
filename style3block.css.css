@@ -1,0 +1,59 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	max-width: 1100px;
+	margin: 0 auto;/*вывод на вредину страницы*/
+	display: flex;
+}
+
+@media (max-width: 720px){
+	.container {
+	max-width: 760px;
+}
+}
+.wrapper {
+	
+}
+h2 {
+	text-transform: uppercase;/* текст заглавные*/
+	text-align: center;/*Текст по средине родительского контейнера*/
+}
+.card__column {   /*Обвертка блоков*/
+	display: flex;
+	flex-wrap: wrap; /*разрешение переноса флекс-блоков*/
+	justify-content: center; /*Центр по горизонтали*/
+	
+}
+
+.card__item {  /*Отдельный блок*/
+	display: flex; 
+	background-color: aqua;
+	padding: 0 10px;  /*ступ текста от краев*/
+	flex-direction: column; /*Разворот главной оси по вертикали вниз*/
+	text-align: center; /*Весь текст в блоке будет по центру*/
+	flex: 0 0 280px; /* Сам блок  нельзя увеличивать, уменьшать, 280*/
+	margin: 10px;/*Расстояние между блоками*/
+	
+}	
+.card__header {
+	margin: 10px;
+}
+.card__text {
+	flex: 1 0 auto;/*Текст занимает всю ячейку и прижимает футер вниз*/
+}
+.card__footer {
+	height: 40px;
+	background-color: #ffffff;
+	margin: 15px 50px;
+}
+.card__footer_a {
+	display: block; /*Растягивает ссылку на всю длинну блока*/
+	height: 100%;/*Растягивает ссылку на всю высоту блока*/
+	padding-top: 10px;/*Опускает ссылку на средину блока*/
+	text-decoration: none;
+	color: #000000;
+}
+
