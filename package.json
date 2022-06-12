@@ -1,13 +1,31 @@
-{ 
-  "homepage": "https://MadAmigo.github.io/firsr-site-cto-demo",
-  "dependencies": {
+"dependencies": {
     "-": "^0.0.1",
     "gh-pages": "^4.0.0",
     "save-dev": "^0.0.1-security",
     "yarn": "^1.22.19"
   },
-   "scripts": {
+  "name": "Тренажер",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MadAmigo/firsr-site-cto-demo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MadAmigo/firsr-site-cto-demo/issues"
+  },
+  "homepage": "https://MadAmigo.github.io/firsr-site-cto-demo",
+  "description": ""{
+  
 }
