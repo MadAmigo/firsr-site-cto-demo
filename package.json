@@ -1,0 +1,13 @@
+{ 
+  "homepage": "https://MadAmigo.github.io/firsr-site-cto-demo",
+  "dependencies": {
+    "-": "^0.0.1",
+    "gh-pages": "^4.0.0",
+    "save-dev": "^0.0.1-security",
+    "yarn": "^1.22.19"
+  },
+   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+}
